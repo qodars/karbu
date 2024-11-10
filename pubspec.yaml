@@ -61,6 +61,12 @@ flutter:
   assets:
       - assets/images/background.jpg
       - assets/images/background.png
+      - assets/tombol/Container Kosong.png
+      - assets/tombol/Container Profile Kosong.png
+      - assets/tombol/Putih_Pictoicon_Arrow_Backward.png
+      - assets/tombol/Putih_Pictoicon_Arrow_Backward_copy.png
+      - assets/tombol/Putih_Pictoicon_Cancle.png
+      - assets/tombol/btn_play.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'menubelajar.dart';
+
 void main() {
   runApp(GameApp());
 }
@@ -83,9 +85,16 @@ class GameHomePage extends StatelessWidget {
             child: Column(
               children: [
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => MenuBelajarScreen(), // Navigasi ke MenuBelajarScreen
+                      ),
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
+                    backgroundColor: Colors.green,
                     padding: EdgeInsets.symmetric(horizontal: 80, vertical: 15),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
@@ -104,7 +113,7 @@ class GameHomePage extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
+                    backgroundColor: Colors.green,
                     padding: EdgeInsets.symmetric(horizontal: 80, vertical: 15),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
@@ -134,7 +143,7 @@ class GameHomePage extends StatelessWidget {
                    ElevatedButton(
                      onPressed: () {},
                      style: ElevatedButton.styleFrom(
-                       primary: Colors.green,
+                       backgroundColor: Colors.green,
                        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                        shape: RoundedRectangleBorder(
                          borderRadius: BorderRadius.circular(10),
@@ -166,7 +175,7 @@ class GameHomePage extends StatelessWidget {
                         }
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.green,
+                        backgroundColor: Colors.green,
                         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
@@ -199,7 +208,7 @@ class GameHomePage extends StatelessWidget {
                     ElevatedButton(
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.green,
+                        backgroundColor: Colors.green,
                         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
@@ -225,7 +234,7 @@ class GameHomePage extends StatelessWidget {
                     ElevatedButton(
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.green,
+                        backgroundColor: Colors.green,
                         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
@@ -251,7 +260,7 @@ class GameHomePage extends StatelessWidget {
                     ElevatedButton(
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.green,
+                        backgroundColor: Colors.green,
                         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
