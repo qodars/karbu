@@ -46,13 +46,8 @@ android {
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.example.gamelalin"
-<<<<<<< Updated upstream
         minSdkVersion 21
         targetSdkVersion 31
-=======
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion 30
->>>>>>> Stashed changes
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
